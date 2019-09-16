@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>    
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <title>Simply Analytics Tech Challenge</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper h1StylingBox">
+            <h1>Color Averaging Challenge - By: Brian Kan</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="wrapper sectionStylingBox">
+
+            <form action="">
+                <h2>Select a color from each group!</h2>
+                <div class="allColorGroups">
+                    <div class="colorGroup1">
+                        <h3>Group 1</h3>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupA" name="group1" value="ed4c67">
+                            <label for="colorGroupA">Bara red</label>
+                        </div>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupB" name="group1" value="0984e3">
+                            <label for="colorGroupB">Electron blue</label>
+                        </div>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupC" name="group1" value="00b894">
+                            <label for="colorGroupC">Mint leaf green</label>
+                        </div>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupD" name="group1" value="a29bfe">
+                            <label for="colorGroupD">Shy fruit purple</label>
+                        </div>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupE" name="group1" value="feca57">
+                            <label for="colorGroupE">Casandora yellow</label>
+                        </div>
+                    </div>
+        
+                    <div class="colorGroup2">
+                        <h3>Group 2</h3>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupF" name="group2" value="2c3e50">
+                            <label for="colorGroupF">Midnight blue</label>
+                        </div>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupG" name="group2" value="95a5a6">
+                            <label for="colorGroupG">Concrete</label>
+                        </div>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupH" name="group2" value="3dc1d3">
+                            <label for="colorGroupH">Blue curacao</label>
+                        </div>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupI" name="group2" value="f3a683">
+                            <label for="colorGroupI">Creamy peach</label>
+                        </div>
+    
+                        <div class="buttonLabelGroup">
+                            <input type="radio" id="colorGroupJ" name="group2" value="f8a5c2">
+                            <label for="colorGroupJ">Rogue pink</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonContainer">
+                    <button>Submit</button>
+                </div>
+            </form>
+            <h3>Result</h3>
+            <p>The average of both colors is:</p>
+            <p class="results"></p>
+        </section>
+    </main>
+    
+    
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
